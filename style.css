@@ -362,9 +362,10 @@
         grid-template-rows: 1fr auto;
         overflow: hidden;
         box-shadow: 5px 30px 50px rgba(0, 0, 0, 0.315);
-        background-color: #095c58;
+        background-color: #063571;
         align-items: center;
         font-family: 'Poppins';
+        color: white;
     }
     
     .exit-intent-popup {
