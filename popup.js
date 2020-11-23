@@ -33,7 +33,7 @@ const mouseEvent = e => {
 
 function downloadCounter() {
     tempo = Date.now().toString()
-    document.getElementById('download-counter').innerText = `${tempo.substr(6, 3)} pessoas já fizeram o download hoje!`
+    document.getElementById('download-counter').innerText = `${tempo.substr(6, 3)} pessoas já garantiram o link!`
 }
 
 downloadCounter()
