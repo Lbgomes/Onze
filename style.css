@@ -29,6 +29,12 @@
         }
     }
     
+    .web {
+        font-size: 3rem;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 900;
+    }
+    
     #form-btn {
         margin-bottom: 0;
     }
@@ -251,15 +257,16 @@
     
     .colocar {
         color: #DDF2F0;
-        font-family: 'Poppins';
-        font-size: 32px;
+        font-size: 2rem;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 700;
     }
     
     .solucionar {
         color: #DDF2F0;
-        font-family: 'Poppins';
-        font-size: 20px;
-        font-weight: 600;
+        font-family: 'Roboto', sans-serif;
+        font-size: 1.5rem;
+        font-weight: 500;
     }
     
     #close {
@@ -669,4 +676,19 @@
     .cor {
         color: #F05967;
         font-weight: bold;
+    }
+    
+    .rede-social {
+        width: 50px;
+        cursor: pointer;
+    }
+    
+    .rede {
+        font-family: 'Roboto', sans-serif;
+        color: #023373;
+        font-weight: 500;
+    }
+    
+    .redes-soci {
+        text-align-last: center;
     }
