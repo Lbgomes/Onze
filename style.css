@@ -692,3 +692,14 @@
     .redes-soci {
         text-align-last: center;
     }
+
+    @media(max-width: 500px){
+        .align-logo {
+            display:flex;
+            flex-direction: column;
+        }
+
+    .renova{
+        margin-left:5%;
+    }
+    }
