@@ -95,12 +95,36 @@
         margin-top: 20px;
         color: #DDF2F0;
     }
+    #extra2 .data{
+        color:#F25764;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size:2rem; 
+    }
     
     #form-box h3 {
         font-family: 'Poppins';
         margin-bottom: 20px;
+    }  
+    
+    #titulo {
+        grid-row: 1;
+        margin: 20px;
+        font-size: 1.15em;
+        color: #003844;
+        margin-left: 10%;
     }
     
+    @media(max-width: 500px){
+        .align-logo {
+            display:flex;
+            flex-direction: column;
+        }
+
+    .renova{
+        margin-left:5%;
+    }
+    } 
     @media only screen and (min-width: 750px) {
         #extra2 {
             display: none;
@@ -140,7 +164,11 @@
         }
         #titulo {
             text-align: center;
-            margin-left: 10%;
+            margin:0;
+            margin-left:0px;
+            font-size: 1.15em;
+            color: #003844;
+            margin-left: 0%;
         }
         h1 {
             font-size: 1.25em;
@@ -158,6 +186,7 @@
         width: 100%;
         box-sizing: border-box;
         color: #023373;
+        margin-bottom:2%;
     }
     
     #form-box form {
@@ -219,7 +248,7 @@
     }
     
     #logo-color {
-        width: 100px;
+        width: 120px;
     }
     
     hr {
@@ -247,14 +276,7 @@
         color: #DDF2F0;
     }
     
-    #titulo {
-        grid-row: 1;
-        margin: 20px;
-        font-size: 1.15em;
-        color: #003844;
-        margin-left: 10%;
-    }
-    
+  
     .colocar {
         color: #DDF2F0;
         font-size: 2rem;
@@ -287,7 +309,7 @@
         padding: 5px;
         background: transparent;
         border: none;
-        color: #095c58;
+        color: #023373;
         cursor: pointer;
     }
     
@@ -300,7 +322,7 @@
 } */
     
     #ja-vai {
-        padding: 40px;
+        padding: 20px;
         background-color: #fff;
         height: 100%;
         box-sizing: border-box;
@@ -309,16 +331,16 @@
     #ja-vai h1 {
         font-weight: bold;
         margin-bottom: 20px;
-        color: #095c58;
+        color: #023373;
     }
     
     #ja-vai h3 {
-        color: #095c58;
+        color: #023373;
     }
     
     #ja-vai p {
         margin-top: 20px;
-        color: #095c58;
+        color: #023373;
     }
     
     #form-pop {
@@ -661,16 +683,18 @@
     }
     
     .renova {
-        max-width: 470px;
+        max-width: 800px;
         margin-bottom: 7%;
-        color: black;
+        color:#160D35;
         margin-left: 15%;
+        font-size:22px
     }
     
     .align-logo {
         display: flex;
         align-items: start;
         margin-top: 5%;
+        
     }
     
     .cor {
@@ -692,14 +716,10 @@
     .redes-soci {
         text-align-last: center;
     }
+.data{
+    color:#F25764;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size:4rem;
 
-    @media(max-width: 500px){
-        .align-logo {
-            display:flex;
-            flex-direction: column;
-        }
-
-    .renova{
-        margin-left:5%;
-    }
-    }
+}
