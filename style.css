@@ -210,6 +210,8 @@
         font-family: 'Poppins';
         color: #023373;
         margin-left: 20%;
+        margin-top: 3%;
+        padding-top: 1.5%;
     }
     
     #logo-final {
@@ -764,4 +766,58 @@ text-align:center;
 .textos{
     align-self: center;
     margin-left:3%;
+}
+
+.apoiadores{
+    color:#023373;
+    font-size:2rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight:700;
+    text-align: center; 
+    text-decoration:none;
+    margin-top:5%
+}
+
+.link{
+    text-decoration:none;
+    color:#023373;
+    align-self: center;
+}
+
+.agencia{
+    font-weight:600;
+    width:100px;
+    color:#023373;
+    text-decoration:underline;
+    cursor:pointer;
+}
+
+.apoiador{
+    display:flex;
+    margin-left:10%;
+    border-radius:10px;
+
+}
+
+.bio{
+    color:#023373;
+    font-size:1.3rem;
+    margin-left:5%;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+.titulo{
+    font-weight:600
+}
+
+.logo-empresa{
+    border-radius:15px;
+    height:100px;
+}
+
+.fundo-quem{
+    margin-top:4%;
+    background:#F0F0F2;
+    
 }
