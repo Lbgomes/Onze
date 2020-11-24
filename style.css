@@ -723,3 +723,45 @@
     font-size:4rem;
 
 }
+
+.profissionais{
+    font-family: 'Roboto', sans-serif;
+    font-size:2rem;
+    font-weight: 700;
+text-align:center;
+   color:#023373
+}
+.foto{
+    background:rgb(146, 142, 142);
+    width:130px;
+    height:130px;
+    border-radius:100px
+}
+.convidado{
+    font-family: 'Roboto', sans-serif;
+    font-weight:300;
+    font-size:1.3rem;
+    color:#023373;
+    display:flex;
+    margin-left:10%;
+    margin-top:3%
+
+}
+
+.nome{
+    margin:0;
+    font-weight:600;
+    margin-bottom:2%;
+}
+
+.empresa{
+    width:100%;
+    margin:0;
+    font-weight:400
+
+}
+
+.textos{
+    align-self: center;
+    margin-left:3%;
+}
