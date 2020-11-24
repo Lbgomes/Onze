@@ -754,6 +754,8 @@ text-align:center;
     margin:0;
     font-weight:600;
     margin-bottom:2%;
+    text-decoration:underline;
+    cursor:pointer;
 }
 
 .empresa{
