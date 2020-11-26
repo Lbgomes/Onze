@@ -4,7 +4,7 @@
 
 ## Como testar
 
-<p>Eu utilizo a extenção (live server) do vs code para poder testar em tempo real as mudanças feitas no código</p>
+<p>Eu utilizo a extenção (live server) do vs code para poder testar em tempo real as mudanças feitas no código caso não possua essa extensão terá que abrir o arquivo "index.html" para ver o site no modo local, caso queira ver o site funcionando é só entrar no site (https://onze.netlify.app/)</p>
 
 ## Mobile
 

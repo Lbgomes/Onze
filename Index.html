@@ -56,8 +56,8 @@
 
 
     <div id="counter">
-        Se cadastre agora para receber o link de acesso ao webinar!
-        <h3 id="contador">O cadastro encerra em: 5h 39m 23 s.</h3>
+        A nossa live já aconteceu, <a href="https://youtu.be/2WGpdld5q3s" class="link-youtube"><span>clique aqui para assistir!</span></a>
+        <h3 id="contador">A live estará disponível por: 5h 39m 23 s.</h3>
         <button id="close" onclick="hideCounter()">
             <h3>X</h3>
         </button>
@@ -303,7 +303,7 @@
 
 
 
-        var countDownDate = new Date("Nov 25, 2020 19:59:00").getTime();
+        var countDownDate = new Date("Nov 27, 2020 11:59:00").getTime();
 
         var x = setInterval(function () {
             var now = new Date().getTime();
@@ -314,7 +314,7 @@
             var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
             var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
-            document.getElementById("contador").innerHTML = "O cadastro encerra em: " + days + "d " + hours + "h " +
+            document.getElementById("contador").innerHTML = "A live estará disponível por: " + days + "d " + hours + "h " +
                 minutes + "m " + seconds + "s ";
 
 
